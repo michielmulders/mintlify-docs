@@ -12,11 +12,7 @@ description: 'Example section for showcasing API endpoints'
 
 There are two ways to build API documentation: [OpenAPI](https://mintlify.com/docs/api-playground/openapi/setup) and [MDX components](https://mintlify.com/docs/api-playground/mdx/configuration). For the starter kit, we are using the following OpenAPI specification.
 
-<Card
-  title="Plant Store Endpoints"
-  icon="leaf"
-  href="https://github.com/mintlify/starter/blob/main/api-reference/openapi.json"
->
+<Card title="Plant Store Endpoints" icon="leaf" href="https://github.com/mintlify/starter/blob/main/api-reference/openapi.json">
   View the OpenAPI specification file
 </Card>
 
@@ -24,10 +20,82 @@ There are two ways to build API documentation: [OpenAPI](https://mintlify.com/do
 
 All API endpoints are authenticated using Bearer tokens and picked up from the specification file.
 
-```json
+```json index.json
 "security": [
   {
     "bearerAuth": []
   }
 ]
 ```
+
+```js mtest
+const test = "value";
+
+```
+
+
+
+<Tabs>
+  <Tab title="Tab 1">
+    ![](Metric3-engineeringinvestment-1taskoverview.png)
+  </Tab>
+
+  <Tab title="Tab 2">
+
+  </Tab>
+</Tabs>
+
+
+
+<Info>
+  Callout Content
+</Info>
+
+
+
+<Warning>
+  **Warning**: test&#x20;
+  ![](images/checks-passed.png)
+</Warning>
+
+
+
+
+
+<AccordionGroup>
+  <Accordion title="Filter 1" defaultOpen={false}>
+    * test
+
+    *
+
+    * ![](images/checks-passed.png)
+  </Accordion>
+
+  <Accordion title="New Accordion" defaultOpen="false">
+    test text
+
+    iamge
+
+    ![](images/checks-passed.png)
+  </Accordion>
+</AccordionGroup>
+
+
+
+<CardGroup cols="2">
+  <Card title="Card" icon="test">
+    test
+
+    **Test**
+
+
+  </Card>
+
+  <Card title="Card" icon="sparkles" href="https://google.com">
+
+  </Card>
+</CardGroup>
+
+
+
+![](Metric3-engineeringinvestment-2newthings.png)
